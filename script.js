@@ -1,5 +1,8 @@
 console.log("Assignment-1: Linear Data Structures");
-//Q1. Write a program to find all pairs of an integer array whose sum is equal to a given number
+console.log("Q1");
+console.log(
+  "Q1. Write a program to find all pairs of an integer array whose sum is equal to a given number"
+);
 function getPairsCount(arr, n, sum) {
   let count = 0; // Initialize result
 
@@ -18,12 +21,21 @@ let sum = 6;
 //+ getPairsCount(arr, n, sum));
 console.log(getPairsCount(arr, n, sum));
 
-//Q2. Write a program to reverse an array in place? In place means you cannot create a new array. You have to update the original array
+//-----------------------------------------------------
+
+console.log("Q2");
+console.log(
+  "Q2. Write a program to reverse an array in place? In place means you cannot create a new array. You have to update the original array"
+);
 var arr1 = [1, 2, 3, 4, 5];
 var rev = arr1.reverse();
 console.log(rev);
 
-//Q3. Write a program to check if two strings are a rotation of each other?
+//------------------------------------------------------------
+console.log("Q3");
+console.log(
+  "Q3. Write a program to check if two strings are a rotation of each other?"
+);
 // javascript program to check if two given strings are rotations of
 // each other
 
@@ -43,7 +55,12 @@ var str2 = "ACDA";
 if (areRotations(str1, str2))
   console.log("Strings are rotations of each other");
 else console.log("Strings are not rotations of each other");
-//Q4. Write a program to print the first non-repeated character from a string?
+
+//-----------------------------------------------------------------------------------
+console.log("Q4");
+console.log(
+  "Q4. Write a program to print the first non-repeated character from a string?"
+);
 function find_FirstNotRepeatedChar(str) {
   var arra1 = str.split("");
   var result = "";
@@ -67,7 +84,11 @@ function find_FirstNotRepeatedChar(str) {
 }
 console.log(find_FirstNotRepeatedChar("abacddbec"));
 
-//Q5. Read about the Tower of Hanoi algorithm. Write a program to implement it.
+//----------------------------------------------------------------------------
+console.log("Q5");
+console.log(
+  "Q5. Read about the Tower of Hanoi algorithm. Write a program to implement it."
+);
 // javascript recursive function to
 // solve tower of hanoi puzzle
 function towerOfHanoi(n1, from_rod, to_rod, aux_rod) {
@@ -85,7 +106,12 @@ function towerOfHanoi(n1, from_rod, to_rod, aux_rod) {
 var n1 = 4; // Number of disks
 towerOfHanoi(n1, "A", "C", "B"); // A, B and C are names of rods
 
-// Q6. Read about infix, prefix, and postfix expressions. Write a program to convert postfix to prefix expression.
+//-------------------------------------------------------------------------------
+
+console.log("Q6");
+console.log(
+  " Q6. Read about infix, prefix, and postfix expressions. Write a program to convert postfix to prefix expression."
+);
 
 // Javascript Program to convert postfix to prefix
 
@@ -143,7 +169,12 @@ let post_exp = "ABC/-AK/L-*";
 // Function call
 console.log("Prefix : " + postToPre(post_exp));
 
-//Q7. Write a program to convert prefix expression to infix expression.
+//---------------------------------------
+
+console.log("Q7");
+console.log(
+  "Q7. Write a program to convert prefix expression to infix expression."
+);
 
 // Javascript program to convert prefix to Infix
 
@@ -194,7 +225,11 @@ let exp = "*-A/BC-/AKL";
 
 console.log("Infix : " + convert(exp));
 
-//Q8. Write a program to check if all the brackets are closed in a given code snippet.
+//-------------------------------------------------------
+console.log("Q8");
+console.log(
+  "Q8. Write a program to check if all the brackets are closed in a given code snippet."
+);
 
 // Javascript program for checking
 // balanced brackets
@@ -250,7 +285,9 @@ let expr = "([{}])";
 if (areBracketsBalanced(expr)) console.log("Balanced ");
 else console.log("Not Balanced ");
 
-//Q9. Write a program to reverse a stack.
+//--------------------------------------------
+console.log("Q9");
+console.log("Q9. Write a program to reverse a stack.");
 
 // JavaScript code to reverse a
 // stack using recursion
@@ -323,7 +360,9 @@ console.log("Reversed Stack<br>");
 
 console.log(st.join(" "));
 
-//Q10. Write a program to find the smallest number using a stack.
+//-----------------------------------------------------------------------------------
+console.log("Q10");
+console.log("Q10. Write a program to find the smallest number using a stack.");
 
 //JavaScript simple approach to print smallest
 // and second smallest element.
